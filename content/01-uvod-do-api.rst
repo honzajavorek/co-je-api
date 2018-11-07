@@ -3,7 +3,7 @@
 Úvod do API
 ===========
 
-Na API si nelze sáhnout a není možné je vidět, ale přesto dnes nepřímo ovlivňují život každého z nás. Bohužel není snadné zjistit, co ona API vlastně jsou. `Článek na Wikipedii <https://cs.wikipedia.org/wiki/API>`__ začíná tím, že jde o *rozhraní pro programování aplikací*, a pokračuje odborným textem, jímž se běžný smrtelník prokouše jen těžko. Tento text se snaží API **vysvětlit na příkladu a běžnými slovy**.
+Na API si nelze sáhnout a není možné je vidět, ale přesto dnes nepřímo ovlivňují život každého z nás. Bohužel není snadné zjistit, co ona API vlastně jsou. `Článek na Wikipedii <https://cs.wikipedia.org/wiki/API>`__ začíná tím, že jde o *rozhraní pro programování aplikací*, a pokračuje odborným textem, jímž se běžný smrtelník prokouše jen těžko. Tento text se snaží API **vysvětlit na příkladu a běžnými slovy**.
 
 
 .. _chmu:
@@ -11,17 +11,17 @@ Na API si nelze sáhnout a není možné je vidět, ale přesto dnes nepřímo o
 Předpověď počasí na mobilu
 --------------------------
 
-Na jakémkoliv mobilu dnes najdete předpověď počasí. Jak se tam ale dostane? Nejspíš tušíte, že předpovědi vznikají v `Českém hydrometeorologickém ústavu <https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%BD_hydrometeorologick%C3%BD_%C3%BAstav>`__. Jak je ale možné, že jakmile se v ČHMÚ shodnou na zítřejší bouřce, objeví se vám to **během sekundy** na displeji?
+Na jakémkoliv mobilu dnes najdete předpověď počasí. Jak se tam ale dostane? Nejspíš tušíte, že předpovědi vznikají v `Českém hydrometeorologickém ústavu <https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%BD_hydrometeorologick%C3%BD_%C3%BAstav>`__. Jak je ale možné, že jakmile se v ČHMÚ shodnou na zítřejší bouřce, objeví se vám to **během sekundy** na displeji?
 
 .. image:: ../_static/images/chmu1.png
     :align: center
     :width: 60%
 
-Ať už šlo o noviny, rozhlas nebo televizi, dříve redakcím stačilo, aby si předpověď zjistily **jednou denně**. Nevím, jak to přesně probíhalo, ale představuji si, že někdo zavolal do sídla ČHMÚ v Komořanech, kde to zvedli a nadiktovali sluníčka nebo mráčky. Dnes už by to takto fungovat nemohlo. Data o počasí, která ČHMÚ uveřejňuje, je potřeba **okamžitě zobrazovat na tisícovkách míst na internetu**.
+Ať už šlo o noviny, rozhlas nebo televizi, dříve redakcím stačilo, aby si předpověď zjistily **jednou denně**. Nevím, jak to přesně probíhalo, ale představuji si, že někdo zavolal do sídla ČHMÚ v Komořanech, kde to zvedli a nadiktovali sluníčka nebo mráčky. Dnes už by to takto fungovat nemohlo. Data o počasí, která ČHMÚ uveřejňuje, je potřeba **okamžitě zobrazovat na tisícovkách míst na internetu**.
 
 ČHMÚ má svoje webové stránky, kde předpovědi uveřejňuje. Jenže to vyžaduje, aby je na druhé straně **přečetl člověk a někam je přepsal**. Zatímco u redakcí si snad lze představit studenta žurnalistiky na brigádě, jak zoufale nonstop sleduje web ČHMÚ a opisuje povodňová varování na web zpravodajství, pro aplikaci ve vašem mobilu by toto byla nepřekonatelná komplikace.
 
-Váš mobil potřebuje mít možnost **zjistit si předpověď automaticky**. Ústav tedy ukládá informace o počasí tak, aby byly **strojově čitelné**, a zpřístupňuje je **ke stažení** na svém webu. Představte si to zhruba tak, že místo aby nakreslili mráčky na svůj web, uloží odborníci v ČHMÚ všechno do nějaké tabulky, třeba i Excelové, kde je předem dané, co znamená jaký řádek a sloupec. Navíc jasně řeknou, že tato tabulka se bude vždy nacházet na adrese ``https://chmi.cz/predpoved.xslx`` a budou v ní vždy aktuální informace.
+Váš mobil potřebuje mít možnost **zjistit si předpověď automaticky**. Ústav tedy ukládá informace o počasí tak, aby byly **strojově čitelné**, a zpřístupňuje je **ke stažení** na svém webu. Představte si to zhruba tak, že místo aby nakreslili mráčky na svůj web, uloží odborníci v ČHMÚ všechno do nějaké tabulky, třeba i Excelové, kde je předem dané, co znamená jaký řádek a sloupec. Navíc jasně řeknou, že tato tabulka se bude vždy nacházet na adrese ``https://chmi.cz/predpoved.xslx`` a budou v ní vždy aktuální informace.
 
 .. image:: ../_static/images/chmu2.png
     :align: center

@@ -11,7 +11,7 @@ Zajímavé zdroje
 
 .. todo::
     odkazy na pokrocilejsi veci, i v anglictine
-    vysosat neco z https://github.com/honzajavorek/jakpsatapi
+    vysosat neco z https://github.com/honzajavorek/jakpsatapi
     a https://gist.github.com/honzajavorek/02b7205bc2b59247d541
 
 Knihy
