@@ -322,7 +322,7 @@ Uložíme tento JSON na disk a zkusíme jej zpracovat v jazyce Python:
             
     .. note::
     
-        V případě, že se na Windows systému setkáš s chybou ``UnicodeDecodeError`` obsahující zmíňku o ``charmap``, mělo by           stačit specifikovat enkódování souboru, který chceš otevřít, jako ``utf8``. Uprav řádek, na kterém přikazuješ otevřít         ``places.json`` na ``with open('places.json', encoding="utf8") as f:`` 
+        V případě, že se na Windows systému setkáš s chybou ``UnicodeDecodeError`` obsahující zmíňku o ``charmap``, mělo by stačit specifikovat enkódování souboru, který chceš otevřít, jako ``utf8``. Uprav řádek, na kterém přikazuješ otevřít         ``places.json`` na ``with open('places.json', encoding="utf8") as f:`` 
 
 
 #.  Spusťte program:
